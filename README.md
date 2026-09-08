@@ -127,7 +127,16 @@ Corpo da requisição:
 ```json
 {
   "name": "Lucas Castro",
-  "email": "lucas@example.com",
+  "email": "lucas@email.com",
+  "password": "123456",
+  "role": "manager"
+}
+```
+
+```json
+{
+  "name": "Clara Castro",
+  "email": "lucas@email.com",
   "password": "123456",
   "role": "employee"
 }
@@ -156,7 +165,7 @@ Corpo da requisição:
 
 ```json
 {
-  "email": "lucas@example.com",
+  "email": "lucas@email.com",
   "password": "123456"
 }
 ```
@@ -169,7 +178,7 @@ Resposta:
   "user": {
     "id": "uuid",
     "name": "Lucas Castro",
-    "email": "lucas@example.com",
+    "email": "lucas@email.com",
     "role": "employee",
     "createdAt": "2026-09-07T00:00:00.000Z",
     "updatedAt": null
